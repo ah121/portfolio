@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+/* header section start */
+.header_section{
+    height: 130px;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    
+}
+
+
+.logo_icon{
+    width: 23.8%;
+    height: 100px;
+    padding-top: 29px;
+    float: left;
+    
+
+}
+
+.logo_icon img{
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    float: right;
+}
+
+.menu_section{
+    width: 37.2%;
+    height: 100px;
+    padding-top: 29px ;
+    position: relative;
+    float: right;
+    align-items: center;
+    
+
+}
+
+.menu_section ul{
+    display: inline-flex;
+    list-style: none;
+    padding-top: 21px;
+    
+
+}
+
+.menu_section ul li{
+    text-align: center;
+    
+
+}
+
+.menu_section ul li a{
+    margin-left: 40px;
+    font-size: 119%;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    color: #4AB19A;
+    display: inline-block;
+    letter-spacing: 2px;
+
+}
+#for_black{
+    color: #000000;
+}
+
+.menu_section ul li a:visited{
+    color:  #4AB19A;
+}
+.menu_section ul li a:hover{
+    color: black;
+}
+/* header section close */
+
+/* slider section start */
+
+.slider_part{
+    width: 100%;
+    height: 632px;
+    /* background: chartreuse; */
+    position: absolute;
+    background: #E0EBE8;
+    
+
+}
+
+/* info section start */
+
+.info_section{
+    height: 210px;
+    width: 61%;
+    margin:60px auto 0 auto;
+    /* background: crimson; */
+    position: relative;
+    
+
+}
+
+.info_section .right_cloud{
+    float: right;
+    padding: 30px 5px 0 0;
+    
+
+}
+
+h1{
+    position: relative;
+    top: 12px;
+    left: 10%;
+    font-size: 6rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    color:  #4AB19A;
+}
+
+h2{
+    position: relative;
+    top: 3px;
+    left: 31%;
+    font-family: 'Sofia', cursive;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color:  #4AB19A;
+}
+
+.info_section .left_cloud{
+    float: left;
+    padding: 0 0 0 5px;
+    position: relative;
+    top: 74.6%;
+
+}
+/* info section close */
+
+.slider_part .land_svg{
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 62px;
+    left: 23.7%;
+}
+
+
+/* slider section close   */
+
+/* content section  start */
+
+.content_section{
+    width: 100%;
+    height: 1200px;
+    /* background: seagreen; */
+    margin-top: 40.5%;
+    position: relative;
+
+}
+
+#about{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 84px;
+    position: relative;
+
+}
+
+ #about img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    position: relative;
+    left: 42%;
+}
+
+#about h3{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 37px;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    color:#4AB19A ;
+
+
+}
+
+#about p{
+    height: 110px;
+    width: 49%;
+    margin: 44px auto 0 auto;
+    padding: 5px;
+    font-size: 20px;
+    word-spacing: 2px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #545454;
+
+}
+
+.about_hr{
+    border: 5px dotted  #E0EBE8 ;
+    border-bottom: none;
+    width: 5%;
+    margin: 83px auto 0 auto;
+}
+/* content section close */
+
+/* work section start */
+
+
+#work{
+
+}
+
+.title{
+    height: auto;
+    width: 84%;
+    position: relative;
+    top: 78px;
+    
+}
+
+.title h1{
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#327e6d ;
+    text-align: center;
+
+}
+
+
+
+.description_logo{
+    height: auto;
+    width: 21%;
+    
+    position: relative;
+    top: 179px;
+    left: 25.2%;
+    float: left;
+
+
+}
+
+.avatar{
+    height: auto;
+    width: auto;
+    position: relative;
+    float: left;
+
+}
+
+.avatar img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+
+.design-icon{
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    position: relative;
+    top: 36px;
+    right: 33px;
+    float: right;
+    background-image: url(design-icons-vert.png);
+
+    animation-name: habib;
+    
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+
+
+}
+
+@keyframes habib {
+    0% {
+        background-position: 0 0;
+    }
+    5% {
+        background-position: 0 77px;
+    }
+    
+    35% {
+        background-position: 0 77px;
+    }
+    40% {
+        background-position: 0 154px;
+    }
+    68% {
+        background-position: 0 154px;
+    }
+    73% {
+        background-position: 0 231px;
+    }
+    100% {
+        background-position: 0 231px;
+    }
+}
+
+
+.description1{
+    height: 160px;
+    width: 26.3%;
+    position: relative;
+    right: 26%;
+    top: 178px;
+   float: right;
+    /* background: royalblue; */
+
+}
+
+.description1 h2{
+    height: auto;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #4AB19A;
+    
+    position: relative;
+    left: 0%;
+    
+}
+
+.description1 p{
+    text-align: left;
+    font-size: 20px;
+    padding: 41px 0 0 0;
+    line-height: 31px;
+    font-family: serif;
+    color: #545454;
+}
+
+.description{
+    height: 160px;
+    width: 26.3%;
+    position: relative;
+    right: 21%;
+    top: 417px;
+   float: right;
+
+}
+
+
+.description h2{
+    height: auto;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #4AB19A;
+    
+    position: relative;
+    left: 0%;
+
+}
+
+
+.description p{
+    text-align: left;
+    font-size: 20px;
+    padding: 41px 0 0 0;
+    line-height: 31px;
+    font-family: serif;
+    color: #545454;
+
+}
+
+.description_logo2{
+    height: auto;
+    width: 16%;
+    
+    position: relative;
+    top: 418px;
+    left: 28.8%;
+    float: right;
+
+
+}
+
+
+.dev_icon{
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    position: relative;
+    top: 36px;
+    right: 57px;
+    float: left;
+    background-image: url(dev-icons-vert.png);
+
+    animation-name: habib;
+    
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+
+
+}
+
+.avatar2 img{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.avatar2{
+    height: auto;
+    width: auto;
+    position: relative;
+    float: right;
+
+}
+
+.work_hr{
+    border: 5px dotted  #E0EBE8 ;
+    border-bottom: none;
+    width: 5%;
+    margin: 0 auto 40px auto;
+    position: absolute;
+    left: 47%;
+    bottom: 0;
+}
+
+/* work close */
+
+/* notes start */
+
+#notes{
+    height: 450px;
+    width: 39%;
+    margin: 0 auto;
+   
+}
+
+#notes h1{
+    width: 100%;
+    font-family: sans-serif;
+    color:#327e6d ;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: 2%;
+    margin-bottom: 50px;
+}
+
+
+#notes h2{
+    width: 100%;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    left: 0;
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+
+#notes p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #545454;
+}
+
+#notes label a {
+    margin-top: 50px;
+    padding: 15px 20px;
+    font-size: 18px;
+    color:#327e6d ;
+    text-decoration: none;
+    font-weight: lighter;
+    position: relative;
+    left: 35%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: #4AB19A ;
+}
+
+#notes label a:hover{
+    background:#639187 ;
+}
+#notes label a img{
+    padding-right: 10px;
+}
+/* note close */
+
+/* footer start */
+
+.footer{
+    width: 100%;
+    height: 165px;
+    background: #B6D7CF;
+    position: relative;
+
+}
+
+
+.footer ul{
+    display: inline-flex;
+    margin-top: 45px;
+    width: 100%;
+
+
+}
+
+
+.footer ul li{
+    list-style: none;
+    padding-right:80px ;
+    
+    /* position: absolute; */
+    /* left: 20%; */
+    
+
+}
+
+.footer ul li a:hover{
+    color: #302f2f;
+}
+
+.footer ul li:first-child{
+    margin-left: 33%;
+}
+
+
+.footer ul li a{
+    text-decoration: none;
+    color:  #4AB19A;
+    font-size: 19px;
+    display: block;
+    letter-spacing: 1px;
+    
+
+}
+
+.footer h4{
+    
+    font-size: 13px;
+    position: relative;
+    left: 41%;
+    top: 40px;
+    color:  #4AB19A;
+    
+}
+
+.footer h4 a{
+    color:  #4AB19A;
+}
+.footer h4 a:hover{
+    color: #545454;
+}
